@@ -1,0 +1,63 @@
+body{
+  background-color: #F1E1CE;  
+  background-image: url(images/background-vista3.png);
+}
+
+#recuadro{
+  width: 410px;
+  height: 580px;
+  background: #fff;
+  position: relative;
+
+}
+
+h1{
+  position: relative;
+  top: 12px;
+
+}
+
+p{
+    font-family: Montserrat;
+    font-size: 15px;
+    width: 290px;
+    position: relative;
+    top: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+.redondeado{
+  border-radius: 15px;
+  border: #bcbcbc;
+  background-color: #bcbcbc;
+}
+
+input{
+  color: #fff;
+  font-size: 16px;
+  font-family: Montserrat;
+  text-align: center;
+  font-weight: 550;
+  position: relative;
+  top: 20px;
+}
+
+::placeholder{
+  color:#032627;
+  font-size: 12.5px;
+}
+
+#boton-pagar{
+  border: #032627;
+  background-color: #032627;
+  color: #f0e1cc;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+   border-radius: 15px;
+   but
+}

@@ -2,13 +2,47 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>hasu</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+  <center>
+    <div id="recuadro">
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <h1>
+        <br><img src="images/logo-card-validation-vista3.png">
+        <br>
+      </h1>
+    </header>
+
+    <main>
+      <p>
+        Recuerda activar las compras por internet con tu banco
+        <br>
+      </p>
+
+      <form>
+
+        <div id="datos-de-usuario">
+          <input type="number" class="redondeado" placeholder="NÚMERO DE TARJETA" name="numeros-tarjeta" id="numero-tarjeta" style="width : 335px; height : 38px" > 
+          <br><br>
+          <input type="month" class="redondeado" placeholder="MM/AA" name="fecha-caducidad" id="fecha-caducidad" style="width : 164px; height : 38px"> <input type="number" class="redondeado" placeholder="CVV" name="cvv" id="cvv" style="width : 164px; height : 38px">
+          <br><br>
+          <input type="text" class="redondeado" placeholder="NOMBRE" name="nombre" id="nombre" style="width : 164px; height : 38px"> <input type="text" class="redondeado" placeholder="APELLIDO" name="apellidos" id="apellidos" style="width: 164px; height : 38px">
+          <br><br>
+          <input type="email" class="redondeado" placeholder="CORREO ELECTRÓNICO" name="correo-electronico" id="correo-electronico" style="width: 335px; height:38px">
+          <br><br><br>
+          <input type="button" name="boton" value="PAGAR" id="boton-pagar" style="width : 345px; height: 40px">
+        </div>
+
+      </form>
+    </main>
+
+    <footer>
+
+    </footer>
+    </div>
     <script src="index.js" type="module"></script>
   </body>
+  </center>
 </html>
