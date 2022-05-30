@@ -1,48 +1,69 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <title>hasu</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
-  <center>
-    <div id="recuadro">
+  
   <body>
-    <header>
-      <h1>
-        <br><img src="images/logo-card-validation-vista3.png">
-        <br>
-      </h1>
-    </header>
+  <center>
 
-    <main>
-      <p>
-        Recuerda activar las compras por internet con tu banco
-        <br>
-      </p>
-
-      <form>
-
-        <div id="datos-de-usuario">
-          <input type="number" class="redondeado" placeholder="NÚMERO DE TARJETA" name="numeros-tarjeta" id="numero-tarjeta" style="width : 335px; height : 38px" > 
-          <br><br>
-          <input type="month" class="redondeado" placeholder="MM/AA" name="fecha-caducidad" id="fecha-caducidad" style="width : 164px; height : 38px"> <input type="number" class="redondeado" placeholder="CVV" name="cvv" id="cvv" style="width : 164px; height : 38px">
-          <br><br>
-          <input type="text" class="redondeado" placeholder="NOMBRE" name="nombre" id="nombre" style="width : 164px; height : 38px"> <input type="text" class="redondeado" placeholder="APELLIDO" name="apellidos" id="apellidos" style="width: 164px; height : 38px">
-          <br><br>
-          <input type="email" class="redondeado" placeholder="CORREO ELECTRÓNICO" name="correo-electronico" id="correo-electronico" style="width: 335px; height:38px">
-          <br><br><br>
-          <input type="button" name="boton" value="PAGAR" id="boton-pagar" style="width : 345px; height: 40px">
-        </div>
-
-      </form>
-    </main>
-
-    <footer>
-
-    </footer>
+ <div id="ventana1">
+    <div id="imagen1">
+      <br><img src="images/logo-card-validation-vista1.png"><br><br><br><br><br><br><br><br><br>
+    <input type="button" class="redondeado" name="boton1" value="ELIGE TU PLAN" id="boton1" style="width:150px; height: 30px">
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+  </div>
+
+  <div id="ventana2">
+    <div id="imagen2"></div> 
+      <br><img src="images/logo-card-validation-vista2.png"><br>
+      <h1>¡Todos los doramas en un solo lugar!</h1> 
+      <h2>Elige el plan que mejor se adapte a ti</h2>
+       <div id="recuadro2-1"></div>
+       <div id="recuadro2-2"></div>
+       <div id="recuadro2-3"></div>
+        <h3>BÁSICO</h3>
+        <h4>ESTÁNDAR</h4>
+        <h5>PREMIUM</h5>
+        <h6>S/ 15 Mensual<br><br>2 Disp. a la vez<br><br>3 Días gratis<br><br>Sub español<br><br>HD<br></h6>
+        <h7>S/ 22 Mensual<br><br>4 Disp. a la vez<br><br>5 Días gratis<br><br>Modo Offline<br><br>Sub español<br><br>4K<br></h7>
+        <h8>S/ 35 Mensual<br><br>6 Disp. a la vez<br><br>7 Días gratis<br><br>Modo Offline<br><br>Sub español y doblado<br><br>4K HDR<br></h8>
+        <input type="button" name="botonbasico" value="ADQUIRIR PLAN" id="botonbasico" style="width:150px ; height:35px">
+        <input type="button" name="botonestandar" value="ADQUIRIR PLAN" id="botonestandar" style="width:150px ; height:35px">
+        <input type="button" name="botonpremium" value="ADQUIRIR PLAN" id="botonpremium" style="width:150px ; height:35px">
+  </div>
+
+  <div id="ventana3">
+    <div id="recuadro"></div>
+        <header>
+         <div id="imagen3"></div>
+          <br><img src="images/logo-card-validation-vista3.png"><br>
+        </header>
+
+      <main>
+        <p> Recuerda activar las compras por internet con tu banco</p><br>
+        
+      <form>
+         <!--TODOS LOS INPUTS--> 
+        <div id="datos-de-usuario">
+          <input type="number" class="redondeado" placeholder="NÚMERO DE TARJETA" name="numeros-tarjeta" id="numero-tarjeta" style="width : 335px; height : 38px"><br><br>
+          <input type="month" class="redondeado" name="fecha-caducidad" id="fecha-caducidad" min="2022-05" max="2027-12" style="width : 164px; height : 38px"> <input type="number" class="redondeado" placeholder="CVV" name="cvv" id="cvv" maxlength="2" style="width : 164px; height : 38px"><br><br>
+          <input type="text" class="redondeado" placeholder="NOMBRE" name="nombre" id="nombre" style="width : 164px; height : 38px"> <input type="text" class="redondeado" placeholder="APELLIDO" name="apellidos" id="apellidos" style="width: 164px; height : 38px"><br><br>
+          <input type="email" class="redondeado" placeholder="CORREO ELECTRÓNICO" name="correo-electronico" id="correo-electronico" style="width: 335px; height:38px"><br><br><br>
+          <input type="submit" name="boton" value="PAGAR" id="boton-pagar" style="width: 345px; height: 40px">
+          <p class="mensaje-exitoso">¡El pago se realizó correctamente!</p>
+        </div> 
+      </form>
+      </main>
+  </div>
+    
+    <footer>
+    </footer>
+
   </center>
+  </body>
+  <script src="index.js" type="module"></script>
 </html>
