@@ -22,14 +22,13 @@ function ventana2(){
   document.getElementById("ventana3").style.display="block";
 }
 
-  console.log(validator);
-
-//const ccvalida=()=>{
+  //console.log(validator);
 
   let num = ""
   const validarNumeros = document.getElementById("numero-tarjeta");
   validarNumeros.addEventListener("change", (event) => {
   num = event.target.value;
+  //validator.maskify(num);
   })
 
   const botondepago=document.getElementById("boton-pagar");
@@ -39,10 +38,12 @@ function ventana2(){
   })
 
   //let mensaje="";
-    //if(validator(validarNumeros)=)
+  //let verificador=division
+    //if(division = true){
       //mensaje="Número de tarjeta válida";
-    //else 
+    //} else {
       //mensaje="Número de tarjeta inválido";
-    //botondepago.textContent=mensaje;
+    //}
+  //console.log(verificador)
 
-//}
+  //let ocultar= ""

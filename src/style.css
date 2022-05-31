@@ -176,10 +176,10 @@ h8{
   position: relative;
   top: 40px;
 }
-
 #imagen3{
   position: relative;
-  top: 12px;
+  top: 120px;
+  bottom: 500px;
 }
 
 p{
@@ -187,7 +187,7 @@ p{
     font-size: 15px;
     width: 290px;
     position: relative;
-    top: 20px;
+    bottom: 20px;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
