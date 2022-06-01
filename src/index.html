@@ -18,8 +18,8 @@
   </div>
 
   <div id="ventana2">
-    <div id="imagen2"></div> 
-      <br><img src="images/logo-card-validation-vista2.png"><br>
+    <div id="imagen2">
+      <br><img src="images/logo-card-validation-vista2.png"></div><br>
       <h1>¡Todos los doramas en un solo lugar!</h1> 
       <h2>Elige el plan que mejor se adapte a ti</h2>
        <div id="recuadro2-1"></div>
@@ -37,25 +37,28 @@
   </div>
 
   <div id="ventana3">
-    <div id="recuadro"></div>
-        <header>
-         <div id="imagen3"></div>
-          <br><img src="images/logo-card-validation-vista3.png"><br>
-        </header>
+        <header></header>
 
-      <main>
-        <p> Recuerda activar las compras por internet con tu banco</p><br>
+        <main>
+        <div id="recuadro"><br>
+         <div id="imagen3">
+          <img src="images/logo-card-validation-vista3.png"></div><br>
         
+        <p> Recuerda activar las compras por internet con tu banco</p><br>
+
       <form>
          <!--TODOS LOS INPUTS--> 
         <div id="datos-de-usuario">
-          <input type="number" class="redondeado" placeholder="NÚMERO DE TARJETA" name="numeros-tarjeta" id="numero-tarjeta" style="width : 335px; height : 38px"><br><br>
-          <input type="month" class="redondeado" name="fecha-caducidad" id="fecha-caducidad" min="2022-05" max="2027-12" style="width : 164px; height : 38px"> <input type="number" class="redondeado" placeholder="CVV" name="cvv" id="cvv" maxlength="2" style="width : 164px; height : 38px"><br><br>
-          <input type="text" class="redondeado" placeholder="NOMBRE" name="nombre" id="nombre" style="width : 164px; height : 38px"> <input type="text" class="redondeado" placeholder="APELLIDO" name="apellidos" id="apellidos" style="width: 164px; height : 38px"><br><br>
+          <input type="text" class="redondeado" placeholder="NÚMERO DE TARJETA" name="numeros-tarjeta" id="numero-tarjeta" pattern="[0-9]+" style="width : 335px; height : 38px"><br><br>
+          <input type="month" class="redondeado" name="fecha-caducidad" id="fecha-caducidad" min="2022-05" max="2027-12" style="width : 164px; height : 38px">
+          <input type="number" class="redondeado" placeholder="CVV" name="cvv" id="cvv" maxlength="2" style="width : 164px; height : 38px"><br><br>
+          <input type="text" class="redondeado" placeholder="NOMBRE" name="nombre" id="nombre" style="width : 164px; height : 38px">
+          <input type="text" class="redondeado" placeholder="APELLIDO" name="apellidos" id="apellidos" style="width: 164px; height : 38px"><br><br>
           <input type="email" class="redondeado" placeholder="CORREO ELECTRÓNICO" name="correo-electronico" id="correo-electronico" style="width: 335px; height:38px"><br><br><br>
           <input type="submit" name="boton" value="PAGAR" id="boton-pagar" style="width: 345px; height: 40px">
-          <p class="mensaje-exitoso">¡El pago se realizó correctamente!</p>
+          <div id="mensaje-exitoso"></div>
         </div> 
+      </div>
       </form>
       </main>
   </div>

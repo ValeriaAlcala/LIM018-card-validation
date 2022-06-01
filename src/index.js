@@ -27,23 +27,24 @@ function ventana2(){
   let num = ""
   const validarNumeros = document.getElementById("numero-tarjeta");
   validarNumeros.addEventListener("change", (event) => {
+
   num = event.target.value;
-  //validator.maskify(num);
+  validator.maskify(num);
+  let numero=validator.maskify(num);
+  validarNumeros.value=numero;
   })
 
   const botondepago=document.getElementById("boton-pagar");
   botondepago.addEventListener("click", (event) => {
   event.preventDefault();
   validator.isValid(num);
+  
+  let mensaje=""
+  //let comprobacion=validator.isValid(num);  
+    if(validator.isValid(num)===true){
+      mensaje="Número de tarjeta válido"
+    }else{
+      mensaje="Número de tarjeta inválido"
+    } 
+  document.getElementById("mensaje-exitoso").innerHTML=mensaje;  
   })
-
-  //let mensaje="";
-  //let verificador=division
-    //if(division = true){
-      //mensaje="Número de tarjeta válida";
-    //} else {
-      //mensaje="Número de tarjeta inválido";
-    //}
-  //console.log(verificador)
-
-  //let ocultar= ""

@@ -169,17 +169,22 @@ h8{
   height: 100vh;
 }
 
+#datos-usuario{
+  position: absolute;
+  bottom: 0px;
+}
+
 #recuadro{
   width: 400px;
   height: 560px;
   background: #fff;
-  position: relative;
-  top: 40px;
+  position: absolute;
+  top: 50px;
+  left: 440px;
 }
 #imagen3{
   position: relative;
-  top: 120px;
-  bottom: 500px;
+  top: 15px;
 }
 
 p{
@@ -187,7 +192,7 @@ p{
     font-size: 15px;
     width: 290px;
     position: relative;
-    bottom: 20px;
+    bottom: -5px;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -230,8 +235,13 @@ input{
   font-size: 16px;
   font-weight: bold;
   border-radius: 15px;
+  position: relative;
+  top: 10px;
 }
 
-.mensaje-exitoso{
-  display: none;
+#mensaje-exitoso{
+  position: relative;
+  bottom: -25px;  
+  font-family: Montserrat;
+  font-size: 13.5px;
 }

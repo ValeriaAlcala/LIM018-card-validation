@@ -30,18 +30,32 @@ const validator = {
         if(division%10==0){
           return true;
         } else {
-          return false;
+          return false; 
         }
-  //console.log(division)
+   
+  },
+
+  maskify: function (num){
+    let arrayNew=[];
+    let numCard;
+    let extraernumero=num.split("");
+  
+      extraernumero.forEach((element, i) => { 
+        if (i < extraernumero.length - 4 ){
+          element = "#";
+        }
+
+        // Usamos el método push para agregar los elementos al arrayNew vacío
+        arrayNew.push(element);
+        //console.log(arrayNew);
+      });
+  
+      numCard = arrayNew.join('');
+      //alert(numCard);
+      return numCard;
+    }
   }
 
-  //maskify: function (x) {
-    //let numero=
-
-
-  //}
-
-}
 export default validator; //va al final
       
 
