@@ -21,7 +21,7 @@ const validator = {
     }
 
     let variablesuma=sumadecifras; // suma de array
-    let sumatotal=variablesuma.reduce((acc,item)=>{
+    let sumatotal=variablesuma.reduce((acc,item)=>{ 
       return acc=acc+parseInt(item);
     },0);
     //console.log(sumatotal);

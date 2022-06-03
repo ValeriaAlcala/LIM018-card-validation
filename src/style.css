@@ -10,6 +10,10 @@ body{
   display: none;
 }
 
+#ventana4{
+  display: none;
+}
+
 #imagen1{
   position: relative;
   top: 180px;
@@ -17,7 +21,7 @@ body{
 
 #boton1{
   background-color: #F0E1CC;
-  font-size: 12px;
+  font-size: 0.75em;
   font-weight: 600;
 }
 
@@ -34,133 +38,125 @@ body{
 }
 
 h1{
-  font-size: 23px;
+  font-size: 1.4375em;
   color: #002626;
   font-weight: 300;
 }
 
 h2{
-  font-size: 15px;
+  font-size: 0.9375em;
   color: #002626;
   font-weight: 250;
-  position: relative;
 }
 
 h3{
-  font-size: 22px;
+  font-size: 1.375em;
   font-weight: 550;
   color: #F0E1CC;
   position: relative;
-  bottom: 1023px;
-  right: 385px;
+  top: 1.705em;
 }
 
 h4{
-  font-size: 22px;
+  font-size: 1.375em;
   font-weight: 550;
   color:#F0E1CC;
   position: relative;
-  bottom: 1080px;
+  top: 2.1875rem;
 }
 
 h5{
-  font-size: 22px;
+  font-size: 1.375em;
   font-weight: 550;
   color:#F0E1CC;
   position: relative;
-  bottom: 1142px;
-  left: 385px;
+  top: 2.25rem;
 }
 
 h6{
   font-family: Montserrat;
-  font-size: 19.5px;
+  font-size: 1.2188em;
   font-weight: 400;
   color:#F0E1CC;
   position: relative;
-  bottom: 1142px;
-  right: 385px;
+  top: 1.875em;
 }
 
 h7{
   font-family: Montserrat;
-  font-size: 19px;
+  font-size: 1.1875em;
   font-weight: 400;
   color: #F0E1CC;
   position: relative;
-  bottom: 1422px;
+  top: 1.75em;
 }
 
 h8{
   font-family: Montserrat;
-  font-size: 19px;
+  font-size: 1.1875em;
   font-weight: 400;
   color:#F0E1CC;
   position: relative;
-  bottom: 1674px;
-  left: 385px;
+  top: 1.25em
 }
 
 #recuadro2-1{
-  width: 280px;
-  height: 350px;
+  width: 17.5em;
+  height: 21.875em;
   background: #F49495;
   position: relative;
-  top: 20px;
+  top: 1.25em;
   right: 30%;
-  border-radius: 35px;
+  border-radius: 2.1875em;
 }
 
 #recuadro2-2{
-  width: 280px;
-  height: 350px;
+  width: 17.5em;
+  height: 21.875em;
   background: #E95622;
   position: relative;
-  bottom: 330px;
-  border-radius: 35px;
+  top: -22.5em;
+  border-radius: 2.1875em;
 }
 
 #recuadro2-3{
-  width: 280px;
-  height: 350px;
+  width: 17.5em;
+  height: 21.875em;
   background: #F69900;
   position: relative;
-  bottom: 680px;
+  bottom: 46.7em;
   left: 30%;
-  border-radius: 35px;
+  border-radius: 2.1875em;
 }
 
 #botonbasico{
-  font-size: 14px;
+  font-size: 0.875em;
   background-color:#002627;
   border: #002627;
   color:#F0E1CC;
   border-radius:15px;
-  position: absolute;
-  top: 15.5cm;
-  right:950px;
+  position: relative;
+  top: 2.8125em;
 }
 
 #botonestandar{
-  font-size: 14px;
+  font-size: 0.875em;
   background-color: #002627;
   border: #002627;
   color: #F0E1CC;
   border-radius: 15px;
-  position: absolute;
-  top: 15.5cm;
-  right: 565px;
+  position: relative;
+  top: 65px;
 }
 
 #botonpremium{
-  font-size: 14px;
+  font-size: 0.875em;
   background-color: #002627;
   border: #002627;
   color: #f0e1cc;
   border-radius: 15px;
-  position: absolute;
-  top: 15.5cm;
-  right: 182px;
+  position: relative;
+  top: 58px;
 }
 
 #ventana3{
@@ -169,30 +165,26 @@ h8{
   height: 100vh;
 }
 
-#datos-usuario{
-  position: absolute;
-  bottom: 0px;
-}
-
 #recuadro{
-  width: 400px;
-  height: 560px;
+  width: 25rem;
+  height: 34.7rem;
   background: #fff;
   position: absolute;
-  top: 50px;
-  left: 440px;
+  top: 4.4em;
+  left: 27.5em;
 }
-#imagen3{
+
+#imagen-3{
   position: relative;
   top: 15px;
 }
 
 p{
-    font-family: Montserrat;
-    font-size: 15px;
-    width: 290px;
-    position: relative;
-    bottom: -5px;
+  font-family: Montserrat;
+  font-size: 0.9375em;
+  width: 18.125em;
+  position: relative;
+  top: 10px;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -208,23 +200,62 @@ input[type="number"]::-webkit-outer-spin-button{
 
 input{
   color: #032627;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: Montserrat;
   text-align: center;
   font-weight: 550;
   position: relative;
-  top: 20px;
+  top: 1.25em;
+}
+
+#numero-tarjeta{
+  width: 335px;
+  height: 38px;
+  position: relative;
+  top: 8px;
+}
+
+#cvv{
+  width: 164px;
+  height: 38px;
+  position: relative;
+  top: 6px;
+}
+
+#nombre{
+  width: 164px;
+  height: 38px;
+  position: relative;
+  top: 6px;
+}
+
+#apellidos{
+  width: 164px; 
+  height: 38px;
+  position: relative;
+  top: 6px;
+}
+
+#correo-electronico{
+  width: 335px;
+  height: 38px;
+  position: relative;
+  top: 6px;
 }
 
 ::placeholder{
   color:#ffff;
-  font-size: 12.5px;
+  font-size: 0.7813em;
 }
 
 #fecha-caducidad{
   color: #fff;
-  font-size: 12.5px;
+  font-size: 0.7813em;
   font-family: Montserrat;
+  width: 164px;
+  height: 40px;
+  position: relative;
+  top: 6px;
 }
 
 #boton-pagar{
@@ -232,16 +263,209 @@ input{
   background-color: #032627;
   color: #f0e1cc;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   border-radius: 15px;
   position: relative;
-  top: 10px;
+  top: -2px;
+  width: 345px;
+  height: 40px;
 }
 
 #mensaje-exitoso{
   position: relative;
-  bottom: -25px;  
+  top: 13px;  
   font-family: Montserrat;
-  font-size: 13.5px;
+  font-size: 0.8438em;
+}
+
+#ventana4{
+  background-color: #F0E1CC;
+}
+
+#imagen4{
+  width: auto/9;
+  height: auto;
+  max-width: 100%;
+}
+
+/* dispositivos grandes como computadoras de  escritorio */
+@media (max-width:1200px){
+    body {
+      font-size: 15px;
+    }
+}
+
+/* dispotivos de escritorio */
+@media (max-width:992px){
+
+}
+
+/* tablets */
+@media (max-width:768px){
+
+}
+
+/* celulares */
+@media (max-width:576px){
+
+  #ventana2{
+    background-color: #F0E1CC;
+    height: auto;
+    font-family: Montserrat;
+  }
+
+  body{
+    font-size: 14px;
+  }
+
+  #recuadro2-1{
+    width: 15em; 
+    height: 19em; 
+    position: relative;
+    top: 1.25em;
+    right: 22%;
+  }
+
+  h3{
+    font-size: 16px;
+    position: relative;
+    top: 1.705em;
+  }
+
+  h6{
+    font-size: 14px;
+    position: relative;
+    top: 1.875em;
+  }
+
+  #recuadro2-2{  
+    width: 15em;
+    height: 19em;
+    position: relative;
+    top: -19.5em;
+    left: 25%;
+  }
+
+  h4{
+    font-size: 16px;
+    position: relative;
+    top: 2.1875rem;
+  }
+
+  h7{
+    font-size: 14px;
+    position: relative;
+    top: 1.75em; 
+  }
+  
+  #botonestandar{
+    font-size: 0.875em;
+    position: relative;
+    top: 47px;
+  }
+
+  #recuadro2-3{
+    width: 15em;
+    height: 19em;
+    position: relative;
+    bottom: 15.7em;
+    left: 0%;
+    border-radius: 2.1875em;
+  }
+
+  h5{
+    font-size: 16px;
+    position: relative;
+    top: 2.25em;
+  }
+
+  h8{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    color:#F0E1CC;
+    position: relative;
+    top: 1.25em
+  }
+
+  #botonpremium{
+    font-size: 0.875em;
+    background-color: #002627;
+    border: #002627;
+    color: #f0e1cc;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+  }
+
+  #recuadro{
+    width: 23rem;
+    height: 32.7rem;
+    background: #fff;
+    position: absolute;
+    top: 3.130em;
+    left: 4.7em;
+  }
+
+  #numero-tarjeta{
+    width: 255px;
+    height: 31px;
+    font-size: 1em;
+  }
+
+  #fecha-caducidad{
+    font-size: 0.95em;
+    font-family: Montserrat;
+    width: 124px;
+    height: 34px;
+  }
+  
+  #cvv{
+    width: 124px;
+    height: 31px;
+    top: 5px;
+    font-size: 1em;
+  }
+  
+  #nombre{
+    width: 124px;
+    height: 31px;
+    font-size: 1em;
+  }
+  
+  #apellidos{
+    width: 124px;
+    height: 31px;
+    font-size: 1em;
+  }
+  
+  #correo-electronico{
+    width: 255px;
+    height: 31px;
+    font-size: 1em;
+  }
+  
+  #boton-pagar{
+    font-size: 0.9rem;
+    font-weight: bold;
+    position: relative;
+    top: 0em;
+    width: 262px;
+    height: 34px;
+  }
+  
+  #mensaje-exitoso{
+    position: relative;
+    top: 22px;  
+    font-family: Montserrat;
+  }
+  
+  #mensaje-exitoso{
+    position: relative;
+    bottom: -20px;  
+    font-family: Montserrat;
+    font-size: 0.8438em;
+  }
+
 }

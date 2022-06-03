@@ -12,6 +12,9 @@ botonestandar.addEventListener("click",ventana2);
 const botonpremium=document.getElementById("botonpremium");
 botonpremium.addEventListener("click",ventana2);
 
+const botonPagar=document.getElementById("boton-pagar");
+botonPagar.addEventListener("click",ventana3);
+
 function ventana1(){
   document.getElementById("ventana1").style.display="none";
   document.getElementById("ventana2").style.display="block";
@@ -20,7 +23,6 @@ function ventana1(){
 function ventana2(){
   document.getElementById("ventana2").style.display="none";
   document.getElementById("ventana3").style.display="block";
-}
 
   //console.log(validator);
 
@@ -39,12 +41,19 @@ function ventana2(){
   event.preventDefault();
   validator.isValid(num);
   
-  let mensaje=""
-  //let comprobacion=validator.isValid(num);  
+  let mensaje="" 
     if(validator.isValid(num)===true){
-      mensaje="Número de tarjeta válido"
+      mensaje="¡El pago se realizó correctamente!"
     }else{
-      mensaje="Número de tarjeta inválido"
+      mensaje="Coloca una tarjeta válida"
     } 
   document.getElementById("mensaje-exitoso").innerHTML=mensaje;  
-  })
+})
+}
+
+function ventana3(){
+  document.getElementById("ventana3").style.display="none";
+  document.getElementById("ventana4").style.display="block";
+}
+
+
