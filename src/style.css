@@ -10,19 +10,17 @@ body{
   display: none;
 }
 
-#ventana4{
-  display: none;
-}
-
 #imagen1{
   position: relative;
-  top: 180px;
+  top: 150px;
 }
 
 #boton1{
   background-color: #F0E1CC;
   font-size: 0.75em;
   font-weight: 600;
+  width: 9.375rem;
+  height: 1.875rem;
 }
 
 #ventana1{
@@ -41,12 +39,16 @@ h1{
   font-size: 1.4375em;
   color: #002626;
   font-weight: 300;
+  position: relative;
+  top: -15px;
 }
 
 h2{
   font-size: 0.9375em;
   color: #002626;
   font-weight: 250;
+  position: relative;
+  top: -15px;
 }
 
 h3{
@@ -70,7 +72,7 @@ h5{
   font-weight: 550;
   color:#F0E1CC;
   position: relative;
-  top: 2.25rem;
+  top: 2rem;
 }
 
 h6{
@@ -105,7 +107,7 @@ h8{
   height: 21.875em;
   background: #F49495;
   position: relative;
-  top: 1.25em;
+  top: -1em;
   right: 30%;
   border-radius: 2.1875em;
 }
@@ -115,7 +117,7 @@ h8{
   height: 21.875em;
   background: #E95622;
   position: relative;
-  top: -22.5em;
+  top: -24.5em;
   border-radius: 2.1875em;
 }
 
@@ -124,7 +126,7 @@ h8{
   height: 21.875em;
   background: #F69900;
   position: relative;
-  bottom: 46.7em;
+  bottom: 48.7em;
   left: 30%;
   border-radius: 2.1875em;
 }
@@ -136,7 +138,7 @@ h8{
   color:#F0E1CC;
   border-radius:15px;
   position: relative;
-  top: 2.8125em;
+  top: 1.8125em;
 }
 
 #botonestandar{
@@ -146,7 +148,7 @@ h8{
   color: #F0E1CC;
   border-radius: 15px;
   position: relative;
-  top: 65px;
+  top: 3rem;
 }
 
 #botonpremium{
@@ -156,7 +158,7 @@ h8{
   color: #f0e1cc;
   border-radius: 15px;
   position: relative;
-  top: 58px;
+  top: 3em;
 }
 
 #ventana3{
@@ -170,7 +172,7 @@ h8{
   height: 34.7rem;
   background: #fff;
   position: absolute;
-  top: 4.4em;
+  top: 2em;
   left: 27.5em;
 }
 
@@ -279,41 +281,180 @@ input{
   font-size: 0.8438em;
 }
 
-#ventana4{
-  background-color: #F0E1CC;
-}
-
-#imagen4{
-  width: auto/9;
-  height: auto;
-  max-width: 100%;
-}
-
 /* dispositivos grandes como computadoras de  escritorio */
 @media (max-width:1200px){
-    body {
-      font-size: 15px;
-    }
+  body {
+    font-size: 15.5px;
+  }
 }
 
 /* dispotivos de escritorio */
 @media (max-width:992px){
-
+  body {
+    font-size: 15px;
+  }
 }
 
 /* tablets */
 @media (max-width:768px){
+  body {
+    font-size: 14px;
+  }
 
+  #ventana2{
+    height: auto;
+  }
+
+  #recuadro2-1{
+    width: 15em; 
+    height: 19em; 
+    position: relative;
+    top: 1.25em;
+    right: 22%;
+  }
+
+  h3{
+    font-size: 16px;
+    position: relative;
+    top: 1.705em;
+  }
+
+  h6{
+    font-size: 14px;
+    position: relative;
+    top: 1.875em;
+  }
+
+  #recuadro2-2{  
+    width: 15em;
+    height: 19em;
+    position: relative;
+    top: -19.5em;
+    left: 25%;
+  }
+
+  h4{
+    font-size: 16px;
+    position: relative;
+    top: 1.6rem;
+  }
+
+  h7{
+    font-size: 14px;
+    position: relative;
+    top: 1.2em; 
+  }
+  
+  #botonestandar{
+    font-size: 0.875em;
+    position: relative;
+    top: 47px;
+  }
+
+  #recuadro2-3{
+    width: 15em;
+    height: 19em;
+    position: relative;
+    bottom: 15.7em;
+    left: 0%;
+    border-radius: 2.1875em;
+  }
+
+  h5{
+    font-size: 16px;
+    position: relative;
+    top: 1.7em;
+  }
+
+  h8{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    color:#F0E1CC;
+    position: relative;
+    top: 0.7em
+  }
+
+  #botonpremium{
+    font-size: 0.875em;
+    background-color: #002627;
+    border: #002627;
+    color: #f0e1cc;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+  }
+
+  #recuadro{
+    width: 23rem;
+    height: 32.7rem;
+    background: #fff;
+    position: relative;
+    top: 3.130em;
+    left: 0em;
+  }
+
+  #numero-tarjeta{
+    width: 255px;
+    height: 31px;
+    font-size: 1em;
+  }
+
+  #fecha-caducidad{
+    font-size: 0.95em;
+    font-family: Montserrat;
+    width: 124px;
+    height: 34px;
+  }
+  
+  #cvv{
+    width: 124px;
+    height: 31px;
+    top: 5px;
+    font-size: 1em;
+  }
+  
+  #nombre{
+    width: 124px;
+    height: 31px;
+    font-size: 1em;
+  }
+  
+  #apellidos{
+    width: 124px;
+    height: 31px;
+    font-size: 1em;
+  }
+  
+  #correo-electronico{
+    width: 255px;
+    height: 31px;
+    font-size: 1em;
+  }
+  
+  #boton-pagar{
+    font-size: 0.9rem;
+    font-weight: bold;
+    width: 262px;
+    height: 34px;
+  }
+  
+  #mensaje-exitoso{
+    position: relative;
+    top: 0px;  
+    font-family: Montserrat;
+  }
+  
+  #mensaje-exitoso{
+    position: relative;
+    bottom: -20px;  
+    font-family: Montserrat;
+    font-size: 0.8438em;
+  }
 }
 
 /* celulares */
 @media (max-width:576px){
-
-  #ventana2{
-    background-color: #F0E1CC;
-    height: auto;
-    font-family: Montserrat;
-  }
 
   body{
     font-size: 14px;

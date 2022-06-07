@@ -13,7 +13,7 @@
  <div id="ventana1">
     <div id="imagen1">
       <br><img src="images/logo-card-validation-vista1.png"><br><br><br><br><br><br><br><br><br>
-    <input type="button" class="redondeado" name="boton1" value="ELIGE TU PLAN" id="boton1" style="width:150px; height: 30px">
+    <input type="button" class="redondeado" name="boton1" value="ELIGE TU PLAN" id="boton1">
     </div>
   </div>
 
@@ -56,28 +56,20 @@
       <form>
          <!--TODOS LOS INPUTS--> 
         <div id="datos-de-usuario">
-          <input type="tel" class="redondeado" placeholder="NÚMERO DE TARJETA" name="numeros-tarjeta" id="numero-tarjeta" maxlength="16"><br><br>
+          <input type="tel" class="redondeado" placeholder="NÚMERO DE TARJETA" name="numeros-tarjeta" id="numero-tarjeta" maxlength="16"><div id="numero-error" class="contenedor-error"></div><br>
           <input type="month" class="redondeado" name="fecha-caducidad" id="fecha-caducidad" min="2022-06" max="2027-06">
-          <input type="tel" class="redondeado" placeholder="CVV" name="cvv" id="cvv" maxlength="3" pattern="[0-9]*"><br><br>
+          <input type="tel" class="redondeado" placeholder="CVV" name="cvv" id="cvv" maxlength="3"><br><br>
           <input type="text" class="redondeado" placeholder="NOMBRE" name="nombre" id="nombre">
           <input type="text" class="redondeado" placeholder="APELLIDO" name="apellidos" id="apellidos"><br><br>
-          <input type="email" class="redondeado" placeholder="CORREO ELECTRÓNICO" name="correo-electronico" id="correo-electronico"><br><br><br>
+          <input type="email" class="redondeado" placeholder="CORREO ELECTRÓNICO" name="correo-electronico" id="correo-electronico"><div id="correo-error" class="contenedor-error"></div><br><br>
           <input type="submit" name="boton" value="PAGAR" id="boton-pagar">
           <div id="mensaje-exitoso"></div>
+          <div id="completa "
         </div> 
       </form>       
         </div>
         </main>
   </div>    
-
-  <div id="ventana4">
-    <div class="banners">
-\      <img src="images/25-21.jpeg">
-    </div>
-    </div>
-  </div>
-
-    
     
       <footer>
     </footer>
