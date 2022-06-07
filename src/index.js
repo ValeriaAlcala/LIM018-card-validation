@@ -21,8 +21,6 @@ function ventana2(){
   document.getElementById("ventana2").style.display="none";
   document.getElementById("ventana3").style.display="block";
 
-  //console.log(validator);
-
   let num = ""
   const validarNumeros = document.getElementById("numero-tarjeta");
   validarNumeros.addEventListener("change", (event) => {

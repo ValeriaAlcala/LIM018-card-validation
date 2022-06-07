@@ -281,6 +281,14 @@ input{
   font-size: 0.8438em;
 }
 
+#completar-campos{
+  font-family: Montserrat;
+  font-size: 0.8438em;
+  position: absolute;
+  bottom: 13px;
+  right: 55px;
+}
+
 /* dispositivos grandes como computadoras de  escritorio */
 @media (max-width:1200px){
   body {
@@ -347,8 +355,8 @@ input{
   
   #botonestandar{
     font-size: 0.875em;
-    position: relative;
-    top: 47px;
+    position: absolute;
+    top: 57px;
   }
 
   #recuadro2-3{
@@ -441,13 +449,7 @@ input{
   
   #mensaje-exitoso{
     position: relative;
-    top: 0px;  
-    font-family: Montserrat;
-  }
-  
-  #mensaje-exitoso{
-    position: relative;
-    bottom: -20px;  
+    top: 90px;  
     font-family: Montserrat;
     font-size: 0.8438em;
   }
