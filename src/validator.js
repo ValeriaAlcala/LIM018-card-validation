@@ -26,7 +26,7 @@ const validator = {
     },0);
     //console.log(sumatotal);
 
-    let division=sumatotal%10; 
+    let division=sumatotal; 
         if(division%10==0){
           return true;
         } else {
@@ -48,7 +48,7 @@ const validator = {
         // Usamos el método push para agregar los elementos al arrayNew vacío
         arrayNew.push(element);
         //console.log(arrayNew);
-      });
+      }); 
   
       numCard = arrayNew.join('');
       //alert(numCard);

@@ -34,7 +34,7 @@ function ventana2(){
   const botondepago=document.getElementById("boton-pagar");
   botondepago.addEventListener("click", (event) => {
   event.preventDefault();
-  validator.isValid(num);
+  //validator.isValid(num);
 
   let mensaje=""
     if(validator.isValid(num)===true){
