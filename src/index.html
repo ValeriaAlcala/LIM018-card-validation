@@ -10,70 +10,154 @@
   <body>
     <center>
 
- <div id="ventana1">
-    <div id="imagen1">
-      <br><img src="images/logo-card-validation-vista1.png"><br><br><br><br><br><br><br><br><br>
-    <input type="button" class="redondeado" name="boton1" value="ELIGE TU PLAN" id="boton1">
-    </div>
-  </div>
-
-  <div id="ventana2">
-    <div id="imagen2">
-      <br><img src="images/logo-card-validation-vista2.png"></div><br>
-      <h1>¡Todos los doramas en un solo lugar!</h1> 
-      <h2>Elige el plan que mejor se adapte a ti</h2>
-
-      <div id="recuadro2-1">
-       <h3>BÁSICO</h3>
-       <h6>S/ 15 Mensual<br><br>2 Disp. a la vez<br><br>3 Días gratis<br><br>Sub español<br><br>HD<br></h6>
-       <input type="button" name="botonbasico" value="ADQUIRIR PLAN" id="botonbasico" style="width:150px ; height:35px">       
+    <section id="ventana1">
+      <div id="contenido-ventana1">
+        <img src="images/logo-card-validation-vista1.png" id="principalLogo">
+        <br>
+        <br>
+        <input type="button" class="imputForm" name="boton1" value="ELIGE TU PLAN" id="boton1">
       </div>
+    </section>
+    
+    </center>
 
-      <div id="recuadro2-2">
-        <h4>ESTÁNDAR</h4>
-        <h7>S/ 22 Mensual<br><br>4 Disp. a la vez<br><br>5 Días gratis<br><br>Modo Offline<br><br>Sub español<br><br>4K<br></h7>
-        <input type="button" name="botonestandar" value="ADQUIRIR PLAN" id="botonestandar" style="width:150px ; height:35px">       
-      </div>
+    <section id="ventana2">
 
-      <div id="recuadro2-3">
-        <h5>PREMIUM</h5>
-        <h8>S/ 35 Mensual<br><br>6 Disp. a la vez<br><br>7 Días gratis<br><br>Modo Offline<br><br>Sub español y doblado<br><br>4K HDR<br></h8>
-        <input type="button" name="botonpremium" value="ADQUIRIR PLAN" id="botonpremium" style="width:150px ; height:35px">
-      </div> 
+      <div id ="contenidoGeneral2">
 
-  </div>
-
-  <div id="ventana3">
-        <header></header>
-
-        <main>
-        <div id="recuadro"><br>
-         <div id="imagen-3"> 
-          <img src="images/logo-card-validation-vista3.png"></div><br>
-        
-        <p> Recuerda activar las compras por internet con tu banco</p><br>
-
-      <form>
-         <!--TODOS LOS INPUTS--> 
-        <div id="datos-de-usuario">
-          <input type="tel" class="redondeado" placeholder="NÚMERO DE TARJETA" name="numeros-tarjeta" id="numero-tarjeta" maxlength="16"><div id="numero-error" class="contenedor-error"></div><br>
-          <input type="month" class="redondeado" name="fecha-caducidad" id="fecha-caducidad" min="2022-06" max="2027-06">
-          <input type="tel" class="redondeado" placeholder="CVV" name="cvv" id="cvv" maxlength="3"><br><br>
-          <input type="text" class="redondeado" placeholder="NOMBRE" name="nombre" id="nombre">
-          <input type="text" class="redondeado" placeholder="APELLIDO" name="apellidos" id="apellidos"><br><br>
-          <input type="email" class="redondeado" placeholder="CORREO ELECTRÓNICO" name="correo-electronico" id="correo-electronico"><div id="correo-error" class="contenedor-error"></div><br><br>
-          <input type="submit" name="boton" value="PAGAR" id="boton-pagar">
-          <div id="mensaje-exitoso"></div>
-        </div> 
-      </form>       
+        <div id="contenidoTexto">
+          <img src="images/logo-card-validation-vista2.png" id="imagen2" >
+          <br>
+          <h1>¡Tus kdramas favoritos en un solo lugar!</h1> 
+          <h2>Elige el plan que mejor se adapte a ti</h2>
         </div>
-        </main>
-  </div>    
+
+        <div class="secciones"> 
+
+          <div id="recuadro2-1" class="recuadros">
+            <h3>BÁSICO</h3>
+            <center>
+            <h4>S/ 15 Mensual
+              <br>
+              <br>
+              2 Disp. a la vez
+              <br>
+              <br>
+              3 Días gratis
+              <br>
+              <br>
+              Sub español
+              <br>
+              <br>
+              HD
+              <br>
+            </h4>
+            </center>
+            <input type="button" name="botonbasico" value="ADQUIRIR PLAN" id="botonbasico" class="botonesElectivo">       
+          </div>
+
+          <div id="recuadro2-2" class="recuadros">
+            <h3>ESTÁNDAR</h3>
+            <center>
+            <h4>S/ 22 Mensual
+              <br>
+              <br>
+              4 Disp. a la vez
+              <br>
+              <br>
+              5 Días gratis
+              <br>
+              <br>
+              Modo Offline
+              <br>
+              <br>
+              Sub español
+              <br>
+              <br>
+              4K
+              <br>
+            </h4>
+            </center>
+            <input type="button" name="botonestandar" value="ADQUIRIR PLAN" id="botonestandar" class="botonesElectivo">       
+          </div>
+
+          <div id="recuadro2-3" class="recuadros">
+            <h3>PREMIUM</h3>
+            <center>
+            <h4>
+              S/ 35 Mensual
+              <br>
+              <br>
+              6 Disp. a la vez
+              <br>
+              <br>
+              7 Días gratis
+              <br>
+              <br>
+              Modo Offline
+              <br>
+              <br>
+              Sub español y doblado
+              <br>
+              <br>
+              4K HDR
+              <br>
+            </h4>
+            </center>
+            <input type="button" name="botonpremium" value="ADQUIRIR PLAN" id="botonpremium" class="botonesElectivo">
+          </div> 
+        
+        </div>  
+      
+      </div>  
+
+    </section>
+
+    <section id="ventana3">
+
+      <main>
+
+        <div id="recuadro">
+
+          <div id="imagen-3"> 
+            <img src="images/logo-card-validation-vista3.png">
+          </div>
+          
+          <center>
+          <p> Recuerda activar las compras por internet con tu banco</p>
+          </center>
+
+          <form>
+          <!--TODOS LOS INPUTS--> 
+            <div id="datos-de-usuario">
+                
+              <input type="tel" class="imputForm" placeholder="NÚMERO DE TARJETA" name="numeros-tarjeta" id="numero-tarjeta" maxlength="16">
+              <br>
+              <br>
+              <input type="month" class="imputForm" name="fecha-caducidad" id="fecha-caducidad" min="2022-06" max="2027-06">
+              <input type="tel" class="imputForm" placeholder="CVV" name="cvv" id="cvv" maxlength="3">
+              <br>
+              <br>
+              <input type="text" class="imputForm" placeholder="NOMBRE" name="nombre" id="nombre">
+              <input type="text" class="imputForm" placeholder="APELLIDO" name="apellidos" id="apellidos">
+              <br>
+              <br>
+              <input type="email" class="imputForm" placeholder="CORREO ELECTRÓNICO" name="correo-electronico" id="correo-electronico">
+              <br>
+              <br>
+              <input type="submit" name="boton" value="PAGAR" id="boton-pagar">
+              <div id="mensaje-exitoso"></div>
+
+            </div> 
+          </form>   
+        </div>
+      </main>
+    </section>    
     
       <footer>
-    </footer>
+      </footer>
 
-    </center>
+    <!-- </center> -->
   </body>
   <script src="index.js" type="module"></script>
 </html>

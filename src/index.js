@@ -32,6 +32,7 @@ function ventana2(){
   })
 
   const botondepago=document.getElementById("boton-pagar");
+
   botondepago.addEventListener("click", (event) => {
   event.preventDefault();
   //validator.isValid(num);
@@ -44,6 +45,7 @@ function ventana2(){
      
       document.getElementById("mensaje-exitoso").innerHTML=mensaje;  
 
+  return mensaje;
 })
 }
 
