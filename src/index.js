@@ -35,11 +35,14 @@ function ventana2(){
 
   botondepago.addEventListener("click", (event) => {
   event.preventDefault();
-  //validator.isValid(num);
-
+  console.log(validator.isValid(num));
+  // console.log(num)
   let mensaje=""
+
     if(validator.isValid(num)===true){
       mensaje="¡El pago se realizó correctamente!"
+    // }else if(num==""){
+    //     mensaje="Colocar una tarjeta válida"
     }else if(validator.isValid(num)===false){
       mensaje="Coloca una tarjeta válida"}
      

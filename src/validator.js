@@ -27,15 +27,11 @@ const validator = {
     //console.log(sumatotal);
 
     let division=sumatotal; 
-        if(division%10==0){
-          return true;
-        } else {
-          return false; 
-        }
-   
+    
+    return( division=="" || division%10!==0 ? false : true);
   },
 
-  maskify: function (num){
+  maskify: function ( num){
     let arrayNew=[];
     let numCard;
     let extraernumero=num.split("");

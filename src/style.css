@@ -2,6 +2,10 @@
   --beige: #F0E1CC;
 }
 
+#background-phone{
+  display: none;
+}
+
 body{
   margin: 0;
 }
@@ -215,181 +219,105 @@ input{
   color:red;
 }
 
-/* dispositivos grandes como computadoras de  escritorio
-@media (max-width:1200px){
-  body {
-    font-size: 15.5px;
-  }
-}
-
-/* dispotivos de escritorio */
-/* @media (max-width:992px){
-  body {
-    font-size: 15px;
-  }
-} */
-
-/* tablets */
-/* @media (max-width:768px){
-  body {
-    font-size: 14px;
-  }
-
-  #ventana2{
-    height: auto;
-  }
-
-  #recuadro2-1{
-    width: 15em; 
-    height: 19em; 
-    position: relative;
-    top: 1.25em;
-    right: 22%;
-  }
-
-  h3{
-    font-size: 16px;
-    position: relative;
-    top: 1.705em;
-  }
-
-  h6{
-    font-size: 14px;
-    position: relative;
-    top: 1.875em;
-  }
-
-  #recuadro2-2{  
-    width: 15em;
-    height: 19em;
-    position: relative;
-    top: -19.5em;
-    left: 25%;
-  }
-
-  h4{
-    font-size: 16px;
-    position: relative;
-    top: 1.6rem;
-  }
-
-  h7{
-    font-size: 14px;
-    position: relative;
-    top: 1.2em; 
-  }
-  
-  #botonestandar{
-    font-size: 0.875em;
-    position: absolute;
-    top: 57px;
-  }
-
-  #recuadro2-3{
-    width: 15em;
-    height: 19em;
-    position: relative;
-    bottom: 15.7em;
-    left: 0%;
-    border-radius: 2.1875em;
-  }
-
-  h5{
-    font-size: 16px;
-    position: relative;
-    top: 1.7em;
-  }
-
-  h8{
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    color:#F0E1CC;
-    position: relative;
-    top: 0.7em
-  }
-
-  #botonpremium{
-    font-size: 0.875em;
-    background-color: #002627;
-    border: #002627;
-    color: #f0e1cc;
-    border-radius: 15px;
-    position: relative;
-    top: 40px;
-  }
-
-  #recuadro{
-    width: 23rem;
-    height: 32.7rem;
-    background: #fff;
-    position: relative;
-    top: 3.130em;
-    left: 0em;
-  }
-
-  #numero-tarjeta{
-    width: 255px;
-    height: 31px;
-    font-size: 1em;
-  }
-
-  #fecha-caducidad{
-    font-size: 0.95em;
-    font-family: Montserrat;
-    width: 124px;
-    height: 34px;
-  }
-  
-  #cvv{
-    width: 124px;
-    height: 31px;
-    top: 5px;
-    font-size: 1em;
-  }
-  
-  #nombre{
-    width: 124px;
-    height: 31px;
-    font-size: 1em;
-  }
-  
-  #apellidos{
-    width: 124px;
-    height: 31px;
-    font-size: 1em;
-  }
-  
-  #correo-electronico{
-    width: 255px;
-    height: 31px;
-    font-size: 1em;
-  }
-  
-  #boton-pagar{
-    font-size: 0.9rem;
-    font-weight: bold;
-    width: 262px;
-    height: 34px;
-  }
-  
-  #mensaje-exitoso{
-    position: relative;
-    top: 90px;  
-    font-family: Montserrat;
-    font-size: 0.8438em;
-  }
-} */
 
 /* celulares */
 @media (max-width: 1200px){
-
+  
   #boton1{
-    background-color: #F0E1CC;
-    font-size: 1.5em;
-    width: 15rem;
-    height: 3.2rem;
-    border-radius: 35px;
+    font-size: 1.25em;
+    width: 14.375rem;
+    height: 2rem;
+  }
+
+  input{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 550;
+    position: relative;
+    top: 1.25em;
+  }
+
+  #ventana2{
+    background-size: 100%;
+  }
+
+  #contenidoGeneral2{
+    height: 100vh;
+  }
+
+  .logo {
+    height: 155px;
+    margin: 15px;
+  }  
+
+  .secciones{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .botonesElectivo{
+    border-radius: 27px;
+    font-size: 1em;
+    padding: 18px 27px;
+  }
+
+  h1, p, h3{
+    font-size: 1.9rem;
+  }
+
+  h2, h4{
+    font-size: 1.6rem;
+  }
+
+  .recuadros{
+    margin: 40px;
+    width: 23.5em;
+    height: 33.875em;
+  }
+
+  #logo2{
+    padding:350px 0 50px 0;
+  }
+
+  #ventana3{
+    background-image: url(images/background-phone.png);
+  } 
+
+  #recuadro{
+    width: 42rem;
+    height: 66rem;
+  }
+
+  #numero-tarjeta, #correo-electronico{
+    width: 512px;
+    height: 62px;
+    border-radius: 30px;
+  }
+
+  #nombre, #apellidos, #cvv, #fecha-caducidad{
+    height: 62px;
+    width: 252px;
+    border-radius: 30px;
   }
   
+  ::placeholder{
+    font-size: 1em;
+  }
+
+   #boton-pagar{
+     font-size: 1.6em;
+   } 
+
+   #boton-pagar{
+    width: 518px;
+    height: 62px;
+    border-radius: 30px;
+   }
+
+   #mensaje-exitoso {
+    font-size: 1.6em;
+    bottom: -55px;
+   }
 }
