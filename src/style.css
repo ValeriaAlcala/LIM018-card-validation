@@ -226,10 +226,10 @@ input{
 @media (max-width: 1200px){
   
   #boton1{
-    font-size: 1.3em;
-    width: 14.375rem;
-    height: 3rem;
-    border-radius: 25px;
+    font-size: 1.6em;
+    width: 17.375rem;
+    height: 4rem;
+    border-radius: 34px;
   }
 
   input{
@@ -261,9 +261,9 @@ input{
   }
 
   .botonesElectivo{
-    border-radius: 27px;
-    font-size: 1em;
-    padding: 18px 27px;
+    border-radius: 31px;
+    font-size: 20px;
+    padding: 24px 37px;
   }
 
   h1, p, h3{
@@ -281,7 +281,7 @@ input{
   }
 
   #logo2{
-    padding:500px 0 50px 0;
+    padding:600px 0 50px 0;
   }
 
   #ventana3{
