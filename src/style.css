@@ -60,6 +60,8 @@ h3{
 .secciones{
   display:flex;
   justify-content: space-around;
+  background-color: var(--beige);
+  padding-bottom: 180px;
 }
 
 #contenidoGeneral2{
@@ -224,9 +226,10 @@ input{
 @media (max-width: 1200px){
   
   #boton1{
-    font-size: 1.25em;
+    font-size: 1.3em;
     width: 14.375rem;
-    height: 2rem;
+    height: 3rem;
+    border-radius: 25px;
   }
 
   input{
@@ -278,7 +281,7 @@ input{
   }
 
   #logo2{
-    padding:350px 0 50px 0;
+    padding:500px 0 50px 0;
   }
 
   #ventana3{
@@ -303,7 +306,7 @@ input{
   }
   
   ::placeholder{
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
    #boton-pagar{
@@ -311,9 +314,9 @@ input{
    } 
 
    #boton-pagar{
-    width: 518px;
+    width: 522px;
     height: 62px;
-    border-radius: 30px;
+    border-radius: 40px;
    }
 
    #mensaje-exitoso {
